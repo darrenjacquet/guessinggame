@@ -1,2 +1,2 @@
 gen_readme:
-	echo "#GuessingGame" > README.md
+	echo "# GuessingGame" > README.md
