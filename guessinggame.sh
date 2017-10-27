@@ -1,8 +1,6 @@
 function main {
     file_count=$(ls -1 | wc -l)
     loop_count=0
-    # Test input
-    echo "Starting script in $(pwd) with code $file_count."
 
     keep_trying=0
     while [[ $keep_trying -eq 0 ]] ; do
